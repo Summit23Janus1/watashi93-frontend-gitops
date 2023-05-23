@@ -1,0 +1,15 @@
+app:
+  name: watashi93-poi-map-app
+  namespace: watashi93
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/watashi93-frontend
+  org: Summit23Janus1
+  name: watashi93-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: watashi93/poi-map-app
+  tag: latest
